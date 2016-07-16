@@ -1,0 +1,83 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	header .hidden-mnu{background-color: #DBDBDB; margin-top: 10px;}
+	header .hidden-mnu li{display: block;}
+	.header-content{padding: 4% 0px;}
+	.hidden-mnu{display: none;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.job-profile{padding: 10px 0px;}
+	.job-profile p{padding: 0;}
+	.job-profile .btn3{display: inline-block;margin-bottom: 20px;font-size: 12px;margin-top: 10px;}
+	.job-profile .job{padding-bottom: 28px;padding-top: 15px;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.mnu-line{text-align: center;}
+	.mnu-line .logo{display: inline-block;}
+	.mnu-line .phone-cont{text-align: center;}
+	.toggle-mnu{right: 15px;}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.mnu-line{text-align: center;}
+	.mnu-line .logo{display: inline-block;}
+	.mnu-line .phone-cont{text-align: center;}
+	.header-content h1{font-size: 28px;line-height: 40px;}
+	.header-content ul{padding: 20px 0px;}
+	.header-content .butn-wrap{text-align: center;}
+	
+	.bottom-line{padding: 25px 0 0;}
+	.bottom-line h3{font-size: 15px;}
+	.bottom-line h3 span{font-size: 25px;}
+	.bottom-line p{font-size: 12px;}
+	.bottom-line .item{height: 150px;}
+
+	.job-profile h2{font-size: 25px;line-height: 30px;margin-top: 10px;}
+	.job-profile p{font-size: 12px;}
+	.job-profile ul li{padding-left: 18px; background-position: 0 center; font-size: 14px;}
+	.job-profile .btn-profile{margin:0;text-align: center;}
+	.job-profile .btn2{display: block;width: 100%;margin: 5px 0px 20px;}
+	.job-profile .job{padding-top: 0;}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+
+}
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
